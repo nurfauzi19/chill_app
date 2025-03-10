@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Regular.woff2) format("woff2"),
+    url(../fonts/Lato-Regular.woff) format("woff"),
+    url(../fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(../fonts/Lato-Bold.woff2) format("woff2"),
+    url(../fonts/Lato-Bold.woff) format("woff"),
+    url(../fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Medium";
+  src: url(../fonts/Lato-Medium.woff2) format("woff2"),
+    url(../fonts/Lato-Medium.woff) format("woff"),
+    url(../fonts/Lato-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-SemiBold";
+  src: url(../fonts/Lato-SemiBold.woff2) format("woff2"),
+    url(../fonts/Lato-SemiBold.woff) format("woff"),
+    url(../fonts/Lato-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Londrina-Solid";
+  src: url(../fonts/LondrinaSolid-Regular.otf) format("opentype");
+}

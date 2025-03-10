@@ -1,0 +1,287 @@
+/* dashboard */
+@media (max-width: 750px) {
+  main {
+    overflow-x: hidden !important;
+  }
+  /* header */
+  .header {
+    font-size: 0.625rem !important;
+    height: 54px !important;
+    padding: 6px 20px !important;
+  }
+
+  .nav {
+    width: 268px !important;
+    gap: 12px !important;
+    justify-content: flex-start !important;
+  }
+
+  .nav .logo {
+    width: 20px !important;
+  }
+
+  .nav a {
+    color: var(--text-light-primary) !important;
+  }
+
+  .nav .logo a img {
+    width: 20px !important;
+    height: 18px !important;
+  }
+
+  .logo__text::after {
+    content: "" !important;
+  }
+
+  .profile {
+    gap: 4px !important;
+    height: 20px !important;
+  }
+
+  .profile__images {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .profile a {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  .profile__menu {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* hero */
+  .hero {
+    height: 225px !important;
+    padding: 67px 20px 40px 20px !important;
+    margin-top: 54px !important;
+  }
+
+  .hero__container {
+    height: 118px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .hero__text {
+    margin-bottom: 12px !important;
+  }
+
+  .hero__text h1 {
+    font-size: 1.25rem !important;
+    margin-bottom: 12px !important;
+  }
+
+  .hero__button {
+    height: 25px !important;
+    margin-top: 12px !important;
+  }
+
+  .hero__info {
+    height: 25px !important;
+    gap: 8px !important;
+  }
+
+  .hero__info .watch {
+    width: 55px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .hero__info .info {
+    width: 120px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .hero__info .info img {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+  .hero__info .age__ratings {
+    width: 30px !important;
+    font-size: 0.75rem !important;
+    padding: 4px !important;
+  }
+
+  .hero__volume {
+    align-items: center !important;
+    width: 24px !important;
+    height: 25px !important;
+    padding: 10px !important;
+  }
+  .hero__volume img {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  /* Movies */
+  .movies {
+    padding: 20px !important;
+  }
+
+  .movies h3 {
+    font-size: 1.25rem !important;
+    margin-bottom: 20px !important;
+  }
+
+  .slider {
+    gap: 16px !important;
+  }
+
+  .movie {
+    width: 95px !important;
+    height: 145px !important;
+  }
+
+  .new__episode {
+    width: 44.56px !important;
+    height: 14px !important;
+    margin: 7.65px !important;
+    padding: 2px 5px !important;
+    font-size: 0.359rem !important;
+    border-radius: 12px !important;
+  }
+
+  .top_10 {
+    width: 15px !important;
+    height: 22px !important;
+    padding: 2px !important;
+    margin: 0 4px !important;
+    border-radius: 0 2px !important;
+    font-size: 0.418rem !important;
+  }
+
+  .arrow {
+    display: none !important;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin-top: 20px !important;
+    padding: 20px !important;
+    height: auto !important;
+  }
+
+  footer span {
+    font-size: 0.75rem !important;
+    color: var(--text-light-secondary) !important;
+  }
+
+  .company {
+    gap: 3px !important;
+  }
+
+  .company img {
+    width: 84px !important;
+    height: 25px !important;
+  }
+
+  .genre {
+    margin-top: 40px !important;
+    width: 100% !important;
+  }
+
+  .genre span {
+    color: var(--text-light-primary) !important;
+  }
+
+  .genre a {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 24px !important;
+    cursor: pointer !important;
+  }
+
+  .genre ul {
+    display: none !important;
+  }
+
+  .help {
+    width: 100% !important;
+  }
+
+  .help span {
+    color: var(--text-light-primary) !important;
+  }
+
+  .help a {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 24px !important;
+    cursor: pointer !important;
+  }
+
+  .help ul {
+    display: none !important;
+  }
+
+  .chevron {
+    display: block !important;
+  }
+  .chevron img {
+    width: 8px !important;
+    height: 12px !important;
+  }
+}
+
+/* auth */
+@media (max-width: 550px) {
+  .login__page {
+    width: 306px;
+    height: 384px;
+  }
+
+  .content__auth__logo img {
+    width: 94px;
+    height: 24px;
+  }
+
+  .content__auth__header h3 {
+    font-size: 1.125rem;
+  }
+
+  .content__auth__header span {
+    font-size: 0.625rem;
+  }
+
+  .form__group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+  }
+
+  .form__group label {
+    font-size: 0.625rem;
+  }
+
+  .form__group input {
+    font-size: 0.578rem;
+    height: 28px;
+    padding: 14px 20px;
+    margin-top: 4px;
+  }
+
+  .form__link {
+    font-size: 0.625rem;
+  }
+
+  .form__submit button {
+    font-size: 0.625rem;
+    height: 30px;
+  }
+  .form__submit span {
+    font-size: 0.625rem;
+  }
+
+  .register__page {
+    width: 306px;
+    height: 452px;
+  }
+}

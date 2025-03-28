@@ -8,7 +8,7 @@ import Film from "../pages/Film";
 
 export const router = createBrowserRouter([
   {
-    path: "/dashboard",
+    path: "/",
     element: <Dashboard />,
   },
   {

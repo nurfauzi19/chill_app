@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/Logo.png";
 import profile from "../assets/images/profile.png";
 import KeyboardArrowDown from "../assets/images/KeyboardArrowDown.png";
 

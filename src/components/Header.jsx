@@ -9,7 +9,7 @@ export default function App() {
       <header className="header">
         <nav className="nav">
           <div className="logo">
-            <a href="/dashboard">
+            <a href="/">
               <img src={logo} alt="Home" />
               <span className="logo__text"></span>
             </a>
